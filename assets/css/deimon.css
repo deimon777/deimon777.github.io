@@ -1,0 +1,14 @@
+html{
+	background-color:#47484A;
+}
+
+body{
+	color: #000;
+}
+
+a, a:visited {
+	text-decoration:none;
+	outline:none;
+	color:#54a6de;
+}
+a:hover{text-decoration:underline;}
