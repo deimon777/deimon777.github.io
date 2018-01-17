@@ -11,7 +11,7 @@ Fondo secciones: 		#FAFAFA
 body {
 	font-family: 'Inder', sans-serif;
 	color: #666;
-	background: #31733E; /*poner fondo*/
+	background: #204D28; /*poner fondo*/
 	font-size: 14px;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -20,16 +20,22 @@ body {
 	position: relative;
 }
 a:link,a:visited,a:active,a:hover{text-decoration:none;}
+/* Fondos */
+.bg_claro{background: #4DB260;}
+.bg_medioclaro{background: #3C8C4C;}
+.bg_medio{background: #378045;}
+.bg_mediooscuro{background: #31733E;}
+.bg_oscuro{background: #204D28;}
+.bg_fondo{background: #F0F0F0;}
+.bg_secciones{background: #FAFAFA;}
 
 /* Header */
 .header a:link,.header a:visited,.header a:active,.header a:hover{color: #FFFFFF;}
 .header .top-bar {
-	background: #4DB260; /*Verde Claro*/
 	padding-top: 15px;
 	padding-bottom: 120px;
 }
 .header .intro {
-	background: #3C8C4C; /*Verde MedioClaro*/
 	padding-top: 10px;
 	padding-bottom: 40px;
 }
@@ -42,7 +48,6 @@ a:link,a:visited,a:active,a:hover{text-decoration:none;}
 	padding: 5px;
 }
 .header .contact-info{
-	background: #31733E; /*Verde MedioOscuro*/
 	padding-top: 30px;
 	padding-bottom: 30px;
 	font-size: 16px;
@@ -50,9 +55,7 @@ a:link,a:visited,a:active,a:hover{text-decoration:none;}
 .header .contact-info ul { margin-bottom: 0;}
 
 /* Nav */
-.menu{
-	background: #204D28; /*Verde Oscuro*/
-}
 /* Secction */
 
 /* Footer */
+.footer p{	margin-bottom: 0;}
