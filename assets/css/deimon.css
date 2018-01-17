@@ -1,14 +1,58 @@
-html{
-	background-color:#47484A;
-}
+/*
+Verde Claro:				#4DB260
+Verde MedioClaro:		#3C8C4C
+Verde Medio:				#378045
+Verde MedioOscuro:	#31733E
+Verde Oscuro:				#204D28
+Fondo fondo: 				#F0F0F0
+Fondo secciones: 		#FAFAFA
+*/
 
-body{
-	color: #000;
+body {
+	font-family: 'Inder', sans-serif;
+	color: #666;
+	background: #31733E; /*poner fondo*/
+	font-size: 14px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: #444;
+	overflow-x: hidden;
+	position: relative;
 }
+a:link,a:visited,a:active,a:hover{text-decoration:none;}
 
-a, a:visited {
-	text-decoration:none;
-	outline:none;
-	color:#54a6de;
+/* Header */
+.header a:link,.header a:visited,.header a:active,.header a:hover{color: #FFFFFF;}
+.header .top-bar {
+	background: #4DB260; /*Verde Claro*/
+	padding-top: 15px;
+	padding-bottom: 120px;
 }
-a:hover{text-decoration:underline;}
+.header .intro {
+	background: #3C8C4C; /*Verde MedioClaro*/
+	padding-top: 10px;
+	padding-bottom: 40px;
+}
+.header .profile {
+	margin-top: -100px;
+}
+.header .intro p{
+	margin-bottom: 0;
+	margin-top: 15px;
+	padding: 5px;
+}
+.header .contact-info{
+	background: #31733E; /*Verde MedioOscuro*/
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 16px;
+}
+.header .contact-info ul { margin-bottom: 0;}
+
+/* Nav */
+.menu{
+	background: #204D28; /*Verde Oscuro*/
+}
+/* Secction */
+
+/* Footer */
