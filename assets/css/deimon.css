@@ -11,15 +11,19 @@ Fondo secciones: 		#FAFAFA
 body {
 	font-family: 'Inder', sans-serif;
 	color: #666;
-	background: #204D28; /*poner fondo*/
-	font-size: 14px;
+	background: #F0F0F0; /*poner fondo*/
+	font-size: 17px;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	color: #444;
 	overflow-x: hidden;
-	position: relative;
+	overflow-y: scroll;
+	/* position: relative; */
 }
-a:link,a:visited,a:active,a:hover{text-decoration:none;}
+a:link,a:visited,a:active,a:hover{
+	/* text-decoration:none; */
+	color: #204D28;
+}
 /* Fondos */
 .bg_claro{background: #4DB260;}
 .bg_medioclaro{background: #3C8C4C;}
@@ -55,7 +59,126 @@ a:link,a:visited,a:active,a:hover{text-decoration:none;}
 .header .contact-info ul { margin-bottom: 0;}
 
 /* Nav */
+.menu{
+	padding-top: 10px;
+	padding-bottom: 0;
+	border-radius: 0px;
+	/* margin-bottom: 45px; */
+	font-size: 14px;
+}
+.navbar{ padding-bottom: 0; }
+.nav-link.active{ border-bottom: 5px solid #4DB260;}
+
+
 /* Secction */
+section{
+	background: #FAFAFA;
+	padding: 30px;
+	border-radius: 2px;
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+}
+.secciones section{
+	margin-bottom: 45px;
+}
+.titulo{
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+.titulo .fa{
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	font-size: 16px;
+	text-align: center;
+	padding-top: 8px;
+	font-size: 16px;
+	position: relative;
+	top: -2px;
+}
+
+/*Proyectos*/
+.grid-item{
+	margin-bottom: 15px;
+}
+.text-item {
+	/* opacity: 0; */
+	display: none;
+	background: url("../images/iconos/bg-icon.png") repeat;
+	position: absolute;
+	padding: 5px;
+	top: 25%;
+	left: 0;
+	right: 0;
+	font-weight: bold;
+	font-size: 14px;
+}
+/*Educacion*/
+.card{
+	border: none;
+}
+.card-img-top{
+	width: auto;
+	height: 70px;
+	margin: auto;
+}
+/*Habilidades*/
+
+/*Contacto*/
+
+.img-contact img{
+	margin-bottom: 30px;
+}
+.list-unstyled{
+	padding: 5px;
+	padding-left: 25px;
+}
+.list-unstyled li i{color:#204D28;}
 
 /* Footer */
-.footer p{	margin-bottom: 0;}
+.footer div p{	margin-bottom: 0;}
+
+/* BackToTop */
+#back_top {
+	position: fixed; /* keeps it on the bottom once in view */
+	bottom: 30px; /* height of link element */
+	right: 10px; /* padding from the left side of the window */
+	z-index: 1030;
+	cursor: pointer;
+	background: green;
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+	border-radius: 50%;
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	opacity: 0;
+	display: inline-block;
+
+	/* -webkit-transition: all 0.5s ease-in-out; */
+	-moz-transition: all 0.5s ease-in-out;
+	/* -ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out; */
+	transition: all 0.5s ease-in-out;
+}
+#back_top .flecha {
+	position: relative;
+	top: 5px;
+	font-size: 20px;
+}
+
+
+/***************/
+/** BOTONES ****/
+/***************/
+.btn-contacto {
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+}
+.btn-contacto:hover {
+  color: #fff;
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+.btn-contacto:focus, .btn-contacto.focus {
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5);
+}
