@@ -135,7 +135,8 @@ section{
 .list-unstyled li i{color:#204D28;}
 
 /* Footer */
-.footer div p{	margin-bottom: 0;}
+.footer{ font-size: 12px; }
+.footer div p{ margin-bottom: 0; }
 
 /* BackToTop */
 #back_top {
