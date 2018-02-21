@@ -11,7 +11,7 @@ Fondo secciones: 		#FAFAFA
 body {
 	font-family: 'Inder', sans-serif;
 	color: #666;
-	background: #F0F0F0; /*poner fondo*/
+	background: #F0F0F0;
 	font-size: 17px;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -24,6 +24,7 @@ a:link,a:visited,a:active,a:hover{
 	/* text-decoration:none; */
 	color: #204D28;
 }
+
 /* Fondos */
 .bg_claro{background: #4DB260;}
 .bg_medioclaro{background: #3C8C4C;}
@@ -34,7 +35,7 @@ a:link,a:visited,a:active,a:hover{
 .bg_secciones{background: #FAFAFA;}
 
 /* Header */
-.header a:link,.header a:visited,.header a:active,.header a:hover{color: #FFFFFF;}
+/* .header a:link,.header a:visited,.header a:active,.header a:hover{color: #FFFFFF;} */
 .header .top-bar {
 	padding-top: 15px;
 	padding-bottom: 120px;
@@ -60,11 +61,11 @@ a:link,a:visited,a:active,a:hover{
 
 /* Nav */
 .menu{
-	padding-top: 10px;
-	padding-bottom: 0;
-	border-radius: 0px;
-	/* margin-bottom: 45px; */
 	font-size: 14px;
+	padding-top: 10px;
+  padding-bottom: 10px;
+	border-radius: 0px;
+  margin-bottom: 45px;
 }
 .navbar{ padding-bottom: 0; }
 .nav-link.active{ border-bottom: 5px solid #4DB260;}
@@ -111,6 +112,8 @@ section{
 	right: 0;
 	font-weight: bold;
 	font-size: 14px;
+	color:#000;
+	text-shadow: -1px 0 #FFFFFF, 0 1px #FFFFFF, 1px 0 #FFFFFF, 0 -1px #FFFFFF;
 }
 /*Educacion*/
 .card{
@@ -135,7 +138,7 @@ section{
 .list-unstyled li i{color:#204D28;}
 
 /* Footer */
-.footer{ font-size: 12px; }
+.footer{ font-size: 14px; }
 .footer div p{ margin-bottom: 0; }
 
 /* BackToTop */
