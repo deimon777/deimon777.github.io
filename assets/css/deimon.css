@@ -16,6 +16,7 @@ Fondo secciones: 		#FAFAFA
 }
 body {
 	font-family: 'Inder', sans-serif;
+  font-display: swap;
 	color: #666;
 	background: #F0F0F0;
 	font-size: 17px;
