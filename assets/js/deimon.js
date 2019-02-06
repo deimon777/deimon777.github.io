@@ -1,8 +1,7 @@
 $(document).ready(function() {
   /* ScrollSpy */
-  $("body").scrollspy({offset: 100,target: "#navbar-menu",});
+  // $("body").scrollspy({offset: 100,target: "#navbar-menu",});
   $("#menu a").on("click", function(e) {
-
     var $hash = this.hash;
     if ($hash !== "") {
       e.preventDefault();
@@ -51,8 +50,4 @@ $(document).ready(function() {
       scrollTop: 0
     }, "slow");
   });
-
-
-
-
 });
