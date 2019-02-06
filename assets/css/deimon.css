@@ -7,7 +7,13 @@ Verde Oscuro:				#204D28
 Fondo fondo: 				#F0F0F0
 Fondo secciones: 		#FAFAFA
 */
-
+@font-face {
+  font-family: "Inder";
+  src: local("Inder"), local("Inder-Regular"), url("https://fonts.gstatic.com/s/inder/v7/w8gUH2YoQe8_4sq9rQ4.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
 body {
 	font-family: 'Inder', sans-serif;
 	color: #666;
