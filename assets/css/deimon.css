@@ -8,7 +8,7 @@ Fondo fondo: 				#F0F0F0
 Fondo secciones: 		#FAFAFA
 */
 @font-face {
-  font-family: "Inder";
+	font-family: 'Inder', sans-serif;
   src: local("Inder"), local("Inder-Regular"), url("https://fonts.gstatic.com/s/inder/v7/w8gUH2YoQe8_4sq9rQ4.woff2") format("woff2");
   font-style: normal;
   font-weight: 400;
